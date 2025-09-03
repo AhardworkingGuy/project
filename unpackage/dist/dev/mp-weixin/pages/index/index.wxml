@@ -1,1 +1,1 @@
-<view>index</view>
+<view class="container"><view wx:for="{{a}}" wx:for-item="item" wx:key="f" class="card" bindtap="{{item.g}}"><view class="title">{{item.a}}</view><view class="info">时间：{{item.b}}</view><view class="info">地点：{{item.c}}</view><view class="info">剩余名额：{{item.d}}</view><view class="info">描述：{{item.e}}</view></view><view wx:if="{{b}}">暂无活动</view></view>

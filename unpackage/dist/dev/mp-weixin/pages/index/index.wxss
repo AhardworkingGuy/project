@@ -1,0 +1,20 @@
+
+.container {
+  padding: 16px;
+}
+.card {
+  background: #fff;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.info {
+  font-size: 14px;
+  margin: 2px 0;
+}
