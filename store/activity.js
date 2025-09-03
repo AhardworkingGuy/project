@@ -28,6 +28,7 @@ function getActivities() {
   })
 }
 
+// 本地存储
 export const useActivityStore = defineStore('activity', {
   state: () => ({
     activities: [],

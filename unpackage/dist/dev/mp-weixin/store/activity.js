@@ -61,9 +61,9 @@ const useActivityStore = common_vendor.defineStore("activity", {
           phone: form.phone
         });
         common_vendor.index.setStorageSync("signUpLogs", this.signUpLogs);
-        common_vendor.index.__f__("log", "at store/activity.js:68", `[报名表提交日志] 活动ID: ${id}, 活动名称: ${activity.title}, 提交时间: ${signUpTime2}, 姓名: ${form.name}, 学号: ${form.studentId}, 手机号: ${form.phone}`);
+        common_vendor.index.__f__("log", "at store/activity.js:69", `[报名表提交日志] 活动ID: ${id}, 活动名称: ${activity.title}, 提交时间: ${signUpTime2}, 姓名: ${form.name}, 学号: ${form.studentId}, 手机号: ${form.phone}`);
       } else {
-        common_vendor.index.__f__("log", "at store/activity.js:70", `[报名表提交日志] 活动ID: ${id}, 活动名称: ${activity.title}, 提交时间: ${signUpTime}, 报名失败: 已经报名或名额已满`);
+        common_vendor.index.__f__("log", "at store/activity.js:71", `[报名表提交日志] 活动ID: ${id}, 活动名称: ${activity.title}, 提交时间: ${signUpTime}, 报名失败: 已经报名或名额已满`);
       }
     }
   }

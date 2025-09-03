@@ -1,1 +1,1 @@
-<view>detail</view>
+<view class="container"><view class="title">{{a}}</view><view class="info">时间：{{b}}</view><view class="info">地点：{{c}}</view><view class="info">剩余名额：{{d}}</view><view class="desc">描述：{{e}}</view><button type="primary" disabled="{{g}}" bindtap="{{h}}" style="margin-top:20px">{{f}}</button><signup-form wx:if="{{i}}" bindclose="{{j}}" u-i="7d215543-0" bind:__l="__l" u-p="{{k}}"/></view>
