@@ -1,5 +1,5 @@
 <template>
-  <view>index</view>
+  <view>detail</view>
 </template>
 
 <script>

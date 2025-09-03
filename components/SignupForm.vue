@@ -1,5 +1,5 @@
 <template>
-  <view>index</view>
+  <view>signupform</view>
 </template>
 
 <script>
